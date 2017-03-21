@@ -1,0 +1,4 @@
+hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-2.6.5.jar \
+-file /home/napatil/big_data/hw1/mapper.py -mapper /home/napatil/big_data/hw1/mapper.py \
+-file /home/napatil/big_data/hw1/reducer.py -reducer /home/napatil/big_data/hw1/reducer.py \
+-input /user/hduser/hw1/business.csv -output user/hduser/hw1_output/
