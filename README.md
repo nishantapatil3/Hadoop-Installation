@@ -1,6 +1,9 @@
 # Hadoop-Mapreduce-Python
 Mapreduce python solutions to hadoop exercise
 
+dataset download:
+https://github.com/Aditya-Shibrady/Hadoop-MapReduce-Join_Query-Snippets/tree/master/dataset
+
 The dataset files are located in hdfs in the following path,
 /yelpdatafall/business/business.csv.
 /yelpdatafall/review/review.csv.
