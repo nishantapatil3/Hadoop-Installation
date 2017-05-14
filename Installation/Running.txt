@@ -1,0 +1,12 @@
+
+
+hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-2.6.5.jar -file /home/napatil/big_data/python_test/mapper.py -mapper /home/napatil/big_data/python_test/mapper.py -file /home/napatil/big_data/python_test/mapper.py -reducer /home/napatil/big_data/python_test/reducer.py -input /user/hduser/hdfstest.txt -output user/hduser/book_output
+
+hdfs dfs -rm -r user
+
+hdfs dfs -copyFromLocal /home/napatil/hdfsTest.txt hdfstest.txt
+
+hdfs dfs -ls
+
+start-dfs.sh
+start-yarn.sh

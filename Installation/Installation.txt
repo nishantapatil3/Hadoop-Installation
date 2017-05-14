@@ -1,0 +1,9 @@
+http://www.bogotobogo.com/Hadoop/BigData_hadoop_Install_on_ubuntu_16_04_single_node_cluster.php
+
+add ssh keygen:
+$ssh-keygen -t rsa -P “"
+
+http://www.bogotobogo.com/Hadoop/BigData_hadoop_Running_MapReduce_Job.php
+
+
+http://www.michael-noll.com/tutorials/writing-an-hadoop-mapreduce-program-in-python/
